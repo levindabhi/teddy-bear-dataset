@@ -10,7 +10,7 @@ After little cleaning on scraped images, the dataset comprises of 6112 images of
 
 ![packed teddy bear](samples/packed_teddy_bear_1080.png)
 
-- After removing background, images are greedily packed into canvas.
+- After removing the background, images are greedily packed into a canvas.
 
 ![faces collage teddy bear](samples/faces_1080_100.png)
 
