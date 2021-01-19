@@ -4,15 +4,15 @@ This repository contains details and downloads links of teddy bear images scrape
 
 After little cleaning on scraped images, the dataset comprises of 6112 images of a teddy bear at various resolutions in various format(png, jpg and jpeg).
 
-![Collage of randomly pick images](samples\collage_raw_1080.png)
+![Collage of randomly pick images](samples/collage_raw_1080.png)
 
 - Collage made from randomly picked images from dataset. Size of image in collage doesn't represent actual image size.
 
-![packed teddy bear](samples\packed_teddy_bear_1080.png)
+![packed teddy bear](samples/packed_teddy_bear_1080.png)
 
 - After removing background, images are greedily packed into canvas.
 
-![faces collage teddy bear](samples\faces_1080_100.png)
+![faces collage teddy bear](samples/faces_1080_100.png)
 
 - Used custom Yolo model to detect faces from raw images and then resized into 256x256 pixels. Teddy bear face dataset comprises of 4992 images of faces in png format.
 - Manually labelled faces from 456 teddy bear images. Images and bounding boxes of the face are available in Yolo format. 
